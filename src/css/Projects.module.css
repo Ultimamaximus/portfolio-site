@@ -1,0 +1,55 @@
+.projects {
+  padding: 1em;
+  background-color: var(--pastel-tertiary); 
+}
+
+.header {
+  font-size: 1.5em;
+  color: var(--black);
+  margin-bottom: 0.5em;
+}
+
+.carouselContainer {
+  width: 60%;   
+  height: 60vh;
+  margin: 0 auto;
+}
+
+.carousel .slide {
+  position: relative;
+  background-color: var(--pastel-primary);
+  text-align: center;
+}
+
+.carousel .slide .imageWrapper {
+  position: relative;
+}
+
+.carousel .slide .imageWrapper img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.carousel .slide .imageWrapper .imageOverlay {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 0.5em; 
+  text-align: center;
+}
+
+.carousel .slide .imageWrapper .imageOverlay .projectName {
+  font-size: 1.5em;
+  color: white;
+}
+
+.carousel .control-dots .dot {
+  background-color: var(--pastel-secondary);
+}
+
+.carousel .control-dots .dot.selected {
+  background-color: var(--pastel-quaternary);
+}

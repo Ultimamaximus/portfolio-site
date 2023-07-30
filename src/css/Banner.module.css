@@ -1,0 +1,13 @@
+.banner {
+    height: 100px; /* adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, var(--pastel-primary), var(--pastel-quaternary));
+}
+
+.text {
+    color: var(--black);
+    font-size: 2em;
+    text-align: center;
+}
