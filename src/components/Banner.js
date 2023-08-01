@@ -9,13 +9,13 @@ const Banner = () => {
         <div className={styles.banner}>
             <h2 className={styles.text}>Let's Be Internet BFFs!</h2>
             <div className={styles.logos}>
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Ultimamaximus" target="_blank" rel="noopener noreferrer">
                     <GitHubLogo className={styles.logo}/>
                 </a>
-                <a href="https://www.linkedin.com/in/yourusername/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/victor-branson-4b6bab240/" target="_blank" rel="noopener noreferrer">
                     <LinkedInLogo className={styles.logo}/>
                 </a>
-                <a href="https://dev.to/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://dev.to/ultimamaximus" target="_blank" rel="noopener noreferrer">
                     <DevToLogo className={styles.logo}/>
                 </a>
             </div>
