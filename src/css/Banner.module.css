@@ -1,13 +1,27 @@
 .banner {
-    height: 100px; /* adjust as needed */
+    height: 120px; /* Increase this as needed */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, var(--pastel-primary), var(--pastel-quaternary));
+    padding: 1em; /* Adjust to give more space for logos */
 }
 
 .text {
     color: var(--black);
     font-size: 2em;
     text-align: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em; /* Adjust for desired spacing between logos */
+}
+
+.logo {
+    height: 40px; /* Decrease or increase this as needed */
+    width: auto;
 }
