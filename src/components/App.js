@@ -15,7 +15,7 @@ const App = () => {
       <Introduction />
       <Bio />
       <TechStack />
-     
+      <Projects />
       <Banner />
     </div>
   );
